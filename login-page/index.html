@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="main">
+        <div>
+            <label>Email</label>
+            <input name="email" placeholder="Email" id="email" type="email" />
+        </div>
+        <div>
+            <label>Password</label>
+            <input name="password" placeholder="Password" id="password" type="password" />
+        </div>
+<button  class="login-btn"
+onclick="login_with_email()"
+>Sign In</button> 
+
+<button 
+class="submit-btn"
+onclick="googleAuthentication()"
+>Sign Up with google</button>
+
+
+
+
+</body>
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js"></script>
+<script src="index.js"></script>
+</html>
